@@ -1,0 +1,75 @@
+body {
+  background-image: url("./minimalist-plant-desktop-s5xmoopj2jrmqpon.jpg");
+}
+.container {
+  width: 100%;
+  min-height: calc(100vh - 20px);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  justify-items: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: dimgrey;
+}
+.prices {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  color: gray;
+  th,
+  td {
+    padding: 20px;
+    border-bottom: 1px solid darkkhaki;
+  }
+}
+.packages {
+  height: 500px;
+  width: 300px;
+  margin: 5px;
+  align-content: center;
+  justify-items: center;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px gainsboro;
+}
+#special {
+  height: 550px;
+  width: 350px;
+  color: whitesmoke;
+
+  background-color: darkkhaki;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px gainsboro;
+  th,
+  td {
+    padding: 20px;
+    border-bottom: 1px solid whitesmoke;
+  }
+}
+.wealth {
+  font-size: 3em;
+  margin: 5em;
+}
+.submit {
+  width: 250px;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: darkkhaki;
+  color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+#specialButton {
+  background-color: whitesmoke;
+  color: darkkhaki;
+}
